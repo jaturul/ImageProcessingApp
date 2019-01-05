@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Structures">
+      <UniqueIdentifier>{fc07b89c-e38e-43c3-a400-0ad0c1cebc62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TransformationCommands">
+      <UniqueIdentifier>{97583c25-cdfa-45e1-bd6a-63bb07795cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TransformationCommands">
+      <UniqueIdentifier>{db59f686-d018-4a67-9747-459eb92db184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Transformers">
+      <UniqueIdentifier>{e88b7ffc-23a1-4566-b522-2381f1b462e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transformers">
+      <UniqueIdentifier>{d64c9bde-5c31-4807-ab16-7a4ff8294992}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StructuringElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ForegroundExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTransformationCommandFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinSizeFilteringCommand.cpp">
+      <Filter>Source Files\TransformationCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSizeFilteringCommand.cpp">
+      <Filter>Source Files\TransformationCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="ErosionCommand.cpp">
+      <Filter>Source Files\TransformationCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="DilationCommand.cpp">
+      <Filter>Source Files\TransformationCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundSubtractionCommand.cpp">
+      <Filter>Source Files\TransformationCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdCommand.cpp">
+      <Filter>Source Files\TransformationCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="GammaTransformation.cpp">
+      <Filter>Source Files\Transformers</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelingTransformations.cpp">
+      <Filter>Source Files\Transformers</Filter>
+    </ClCompile>
+    <ClCompile Include="MorphologicalTransformation.cpp">
+      <Filter>Source Files\Transformers</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdingTransformation.cpp">
+      <Filter>Source Files\Transformers</Filter>
+    </ClCompile>
+    <ClCompile Include="GammaTransformationCommand.cpp">
+      <Filter>Source Files\TransformationCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantsElements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StructuringElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ForegroundExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorHSV.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePoint.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTransformationCommandFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinSizeFilteringCommand.h">
+      <Filter>Header Files\TransformationCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxSizeFilteringCommand.h">
+      <Filter>Header Files\TransformationCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="ErosionCommand.h">
+      <Filter>Header Files\TransformationCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="DilationCommand.h">
+      <Filter>Header Files\TransformationCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTransformationCommand.h">
+      <Filter>Header Files\TransformationCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundSubtractionCommand.h">
+      <Filter>Header Files\TransformationCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="ThresholdCommand.h">
+      <Filter>Header Files\TransformationCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="GammaTransformationCommand.h">
+      <Filter>Header Files\TransformationCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="GammaTransformation.h">
+      <Filter>Header Files\Transformers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTransformation.h">
+      <Filter>Header Files\Transformers</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelingTransformations.h">
+      <Filter>Header Files\Transformers</Filter>
+    </ClInclude>
+    <ClInclude Include="MorphologicalTransformation.h">
+      <Filter>Header Files\Transformers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThresholdingTransformation.h">
+      <Filter>Header Files\Transformers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantElements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+Input/input1.bmp label background_sub 40 threshold 50 dilation 8 erosion 10 min_size 60
+Input/input2.bmp label threshold 60 erosion 10
+Input/input3.bmp label gamma_correction 2 threshold 50 max_size 375 min_size 250
+Input/input4.bmp label background_sub 60 threshold 45 erosion 10 min_size 200 dilation 6
+
